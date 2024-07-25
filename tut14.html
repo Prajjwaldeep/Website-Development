@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        p {
+            border: 2px solid red;
+            /* Element selector */
+        }
+
+        .RedEle {
+            color: red;
+            /* Class selector */
+        }
+
+        #bgBlue {
+            color: blue;
+            /* ID selector */
+        }
+
+        span,
+        footer {
+            background: pink;
+            /* Grouping Selector */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <p>This is a simple paragraph to demonstrate css selectors</p>
+    <p class="RedEle">This is another simple paragraph to demonstrate css selectors</p>
+
+    <span>This is span</span>
+    <div>
+        <p id="bgBlue">This is yet another simple paragraph to demonstrate css selectors</p>
+        <footer>This is footer</footer>
+    </div>
+</body>
+
+</html>
